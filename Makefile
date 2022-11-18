@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-PYTHON=python3.9
+PYTHON=python3.7
 DJANGO_MANAGE=api/manage.py
 ENV_DIR=.$(PYTHON)_env
 IN_ENV=. $(ENV_DIR)/bin/activate

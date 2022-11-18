@@ -34,10 +34,10 @@ then
     echo -e "Please install it before continuing."
     exit
 fi
-if ! which python3.9 &> /dev/null
+if ! which python3.7 &> /dev/null
 then
-    echo -e "${RED}----- python3.8 was not found! ------"
-    echo -e "${NC}Djengu relies on Python 3.8."
+    echo -e "${RED}----- python3.7 was not found! ------"
+    echo -e "${NC}Djengu relies on Python 3.7."
     echo -e "Please install it before continuing."
     exit
 fi
