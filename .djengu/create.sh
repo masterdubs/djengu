@@ -120,8 +120,8 @@ while true; do
 done
 
 # Detach djengu's history from the new project
-rm -rf .git/
-git init
+# rm -rf .git/
+# git init
 
 echo
 echo -e "--------------------------------------------------------"
